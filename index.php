@@ -20,21 +20,6 @@ include 'navbar.php';
 
 	<div class="container-fluid mainContainer">
 
-		<div class="row">
-
-			<div class="col-xs-12">
-
-				<?php
-
-				include 'homeCarousel.php';
-
-				?>
-
-			</div>
-
-		</div>
-
-		<br>
 
 		<div class="row">
 
@@ -43,9 +28,9 @@ include 'navbar.php';
 
 					<br>
 
-					<a href="">
+					<a href="http://www.lahontanstorage.com/">
 
-						<img src="images/ph.png" alt="">
+						<img src="images/lahontan.png" alt="">
 
 					</a>
 
@@ -67,9 +52,10 @@ include 'navbar.php';
 
 				<br>
 
-				<a href="">
+				<a href="http://www.fortchurchill.com/">
 
-					<img src="images/ph.png" alt="">
+					<img src="images/fortchurchill.png" alt="">
+
 				</a>
 
 				<div class="caption">

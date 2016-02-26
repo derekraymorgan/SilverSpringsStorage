@@ -5,39 +5,11 @@
       <paths name="BlueHost Server">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Bluehost ACM Server">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Fort Churchill Storage Bluehost">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/public_html/silverspringsstorage" local="$PROJECT_DIR$" web="/silverspringsstorage" />
           </mappings>
         </serverdata>
       </paths>
       <paths name="Fort Churchill Storage GoDaddy">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Laffins Veterinary Services">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Lahontan Storage Bluehost">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -52,13 +24,6 @@
         </serverdata>
       </paths>
       <paths name="NHSP DEV SERVER">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="NHSP Laravel">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
