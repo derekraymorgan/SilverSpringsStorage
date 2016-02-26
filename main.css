@@ -1,0 +1,157 @@
+.sponsor
+{
+    max-height: 300px;
+}
+
+header
+{
+    text-align: center;
+    border: inset gray 3px;
+
+    background: lightblue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(lightblue, steelblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightblue, steelblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightblue, steelblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightblue, steelblue); /* Standard syntax */
+
+}
+
+.headerImage
+{
+    max-height: 180px;
+    min-height: 70px;
+    text-align: center;
+
+}
+
+.navbar
+{
+    margin: 0;
+}
+
+#headerText
+{
+    font-size: 120%;
+    font-weight: 200;
+    font-family: sans-serif;
+
+}
+
+body
+{
+    background-color: white;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    min-width: 350px;
+}
+
+.mainContainer
+{
+    background-color: white;
+}
+
+html
+{
+    text-align: center;
+    margin: auto;
+    background-color: #002e62;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img
+{
+    width: 90%;
+    margin: auto;
+}
+
+.carousel-inner
+{
+    width:100%;
+    max-height: 500px !important;
+}
+
+footer
+{
+    background-color: lightgrey;
+    text-align: center;
+    border: double white 1px;
+}
+
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe
+{
+    width: 100% !important;
+}
+
+/* Small */
+@media(min-width:768px)
+{
+
+    #headerText
+    {
+        font-size: 200%;
+
+    }
+
+
+
+}
+
+/* Medium */
+@media(min-width:992px)
+{
+    #headerText
+    {
+        font-size: 300%;
+
+    }
+
+
+}
+
+/* Large */
+@media(min-width:1200px)
+{
+
+    #headerText
+    {
+        font-size: 370%;
+
+    }
+
+
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:      flex;
+}
+
+
+/* Responsive iFrame */
+
+.responsive-iframe-container
+{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fb-comments, .fb-comments iframe[style], .fb-like-box, .fb-like-box iframe[style] {width:  100% !important;display:block;z-index:2000;position:relative}
+.fb-comments span, .fb-comments iframe span[style], .fb-like-box span, .fb-like-box iframe  span[style] {width: 100% !important;display:block;z-index:2000;position:relative}
+
